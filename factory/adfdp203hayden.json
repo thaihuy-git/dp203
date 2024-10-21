@@ -1,0 +1,9 @@
+{
+	"name": "adfdp203hayden",
+	"location": "australiasoutheast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c10f77f6-a6a9-45e5-9dff-2f08564fdf95",
+		"tenantId": "715d7658-d3a5-4192-9c7f-41360c037c2f"
+	}
+}
