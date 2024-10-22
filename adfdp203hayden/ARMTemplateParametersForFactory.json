@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdp203hayden"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSQLDB_password": {
+			"value": ""
+		},
+		"AzureSynapseAnalytics1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakecknmt2x.dfs.core.windows.net/"
+		},
+		"AzureSQLDB_properties_typeProperties_server": {
+			"value": "sqlserverdp20301.database.windows.net"
+		},
+		"AzureSQLDB_properties_typeProperties_database": {
+			"value": "testdp20301"
+		},
+		"AzureSQLDB_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"AzureSynapseAnalytics1_properties_typeProperties_server": {
+			"value": "synapsecknmt2x.sql.azuresynapse.net"
+		},
+		"AzureSynapseAnalytics1_properties_typeProperties_database": {
+			"value": "sqlcknmt2x"
+		},
+		"AzureSynapseAnalytics1_properties_typeProperties_userName": {
+			"value": "SQLUser"
+		}
+	}
+}
